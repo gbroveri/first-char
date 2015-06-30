@@ -1,12 +1,15 @@
+package com.firstchar;
+
 import com.firstchar.FirstCharFinder;
 import com.firstchar.StringStream;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
 /**
  * Created by gbroveri on 29/06/15.
  */
-public class FirstCharFinderTests {
+public class FirstCharFinderTest {
     @Test
     public void test_with_short_string() {
         Character retval = FirstCharFinder.firstChar(new StringStream("aAbBABac"));
